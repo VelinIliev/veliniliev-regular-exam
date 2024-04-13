@@ -28,7 +28,7 @@ jobs:
     - name: Run Unit tests
       run: npm run test:unit
    
-   run_ui_tests:
+  run_ui_tests:
     needs: build_and_test
     runs-on: ubuntu-latest
     
