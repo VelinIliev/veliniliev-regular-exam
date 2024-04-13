@@ -54,7 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy cookbook
-        uses: johnbeyonon/render-deploy-action@v0.0.8
+        uses: johnbeynon/render-deploy-action@v0.0.8
         with:
           service-id: ${{secrets.MY_RENDER_SERVICE_ID}}
           api-key: ${{secrets.MY_RENDER_API_KEY}}
